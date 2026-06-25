@@ -32,7 +32,7 @@ st.markdown(
         .block-container {padding-top: 1.5rem; padding-bottom: 2rem; max-width: 1400px;}
 
         /* Hide Streamlit chrome */
-        #MainMenu, footer, header {visibility: hidden;}
+        #MainMenu, footer {visibility: hidden;}
 
         /* Headings */
         h1 {color: #1f4e79; font-weight: 800; letter-spacing: -0.02em;}
@@ -60,6 +60,17 @@ st.markdown(
 
         /* Sliders accent */
         [data-baseweb="slider"] > div > div > div {background: #1f4e79 !important;}
+
+        /* Make sidebar toggle button more visible */
+        button[kind="header"] {
+           background: #1f4e79 !important;
+           color: white !important;
+           border-radius: 8px !important;
+           padding: 6px !important;
+        }
+        button[kind="header"]:hover {
+           background: #2c5f8d !important;
+        }
     </style>
     """,
     unsafe_allow_html=True,
