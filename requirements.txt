@@ -1,6 +1,5 @@
 streamlit
 streamlit-shadcn-ui
-streamlit-extras
 pandas
 plotly
 openpyxl
