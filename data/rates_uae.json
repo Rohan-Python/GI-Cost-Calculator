@@ -1,0 +1,74 @@
+{
+  "region": "UAE",
+  "currency": "AED",
+  "last_updated": "2026-06-18",
+  "source_quotes": ["Zayed City Federal Precinct", "Project 3-4", "Airport Community 2026AE568440"],
+
+  "mobilization": {
+    "site_establishment_fixed": 21667,
+    "survey_per_bh": 190,
+    "rig_move_per_bh": {
+      "percussion": 170,
+      "rotary_open": 200,
+      "rotary_cored": 235
+    }
+  },
+
+  "drilling_per_m": {
+    "percussion": {"0-10": 160, "10-20": 165, "20-30": 175, "30-40": 200, "40-50": 230},
+    "rotary_open": {"0-10": 180, "10-20": 190, "20-30": 200, "30-40": 225, "40-50": 250},
+    "rotary_cored": {"0-10": 205, "10-20": 205, "20-30": 215, "30-40": 230, "40-50": 260}
+  },
+
+  "backfill_per_m": 20,
+
+  "instrumentation": {
+    "piezometer_per_nr": 1375,
+    "protective_cover_per_nr": 500,
+    "fencing_per_nr": 517,
+    "data_logger_per_nr": 7000
+  },
+
+  "in_situ_tests": {
+    "CPT_piezocone": 617,
+    "packer_permeability": 1425,
+    "falling_head_permeability": 800,
+    "CBR_field": 550,
+    "soil_thermal_resistivity": 600,
+    "OYO_elastometer": 2000,
+    "downhole_seismic_per_m": 435
+  },
+
+  "chemical_tests_per_sample": {
+    "sulphate_soil_SO4": 33,
+    "chloride_soil_Cl": 32,
+    "pH_value": 16,
+    "carbonate_content": 83,
+    "organic_matter": 47,
+    "gypsum_content": 30,
+    "soluble_salt_content": 90,
+    "total_dissolved_solids": 50
+  },
+
+  "classification_tests_per_sample": {
+    "moisture_content": 18,
+    "atterberg_limits_LL_PL_PI": 39,
+    "dry_bulk_density": 45,
+    "particle_size_wet_sieving": 37,
+    "hydrometer_sedimentation": 39
+  },
+
+  "rock_tests_per_sample": {
+    "natural_water_content": 23,
+    "UCS": 50,
+    "UCS_with_youngs_modulus": 135,
+    "point_load_strength": 25,
+    "deformability_uniaxial": 170
+  },
+
+  "reporting_overheads": {
+    "master_report": 18000,
+    "additional_copy": 500,
+    "ags_digital_data": 4000
+  }
+}
