@@ -60,7 +60,16 @@ st.markdown(
 
         /* Sliders accent */
         [data-baseweb="slider"] > div > div > div {background: #1f4e79 !important;}
-
+        /* Sidebar toggle button visibility */
+        button[kind="header"] {
+           background: #1f4e79 !important;
+           color: white !important;
+           border-radius: 8px !important;
+           padding: 6px !important;
+        }
+        button[kind="header"]:hover {
+           background: #2c5f8d !important;
+        }
         /* Make sidebar toggle button more visible */
         button[kind="header"] {
            background: #1f4e79 !important;
